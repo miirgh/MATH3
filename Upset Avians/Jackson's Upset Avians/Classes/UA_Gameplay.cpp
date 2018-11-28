@@ -78,6 +78,8 @@ bool UA_Gameplay::init()
 
 void UA_Gameplay::initSprites()
 {
+	// shtuff
+
 	//Init the background sprites
 	spr_Background = Sprite::create("UA/Background/space.png"); //Load the handle
 	spr_Background->setPosition(director->getWinSizeInPixels().width / 2.0f, director->getWinSizeInPixels().height / 2.0f); //Center the image in the window
